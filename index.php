@@ -11,8 +11,10 @@
         <!-- Javascript-->
         <script src="js/jquery-1.11.3.min.js"></script>
         <script src="js/bootstrap.js" ></script>
-        <script src="js/meuscript.js"></script>
+        
         <link rel="shortcut icon" href="http://sc.senai.br/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="20">
 
@@ -71,6 +73,7 @@
             </div>
         </nav>    
 
+        <!-- CARROSSEL -->
         <div id="section1" class="container-fluid">
             <h1>Inicio</h1>
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -86,34 +89,22 @@
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
                         <img src="http://files.lucianoifsp.com.br/200000419-01bb203ad4/senai_1.jpg"Chania">
-                        <div class="carousel-caption">
-                            <h3>Chania</h3>
-                            <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
-                        </div>
+
                     </div>
 
                     <div class="item">
-                        <img src="img_chania2.jpg" alt="Chania">
-                        <div class="carousel-caption">
-                            <h3>Chania</h3>
-                            <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
-                        </div>
+                        <img src="http://lagoagrande.net/wp-content/uploads/2013/05/SENAI-PE-EM-A%C3%87%C3%83O.jpg" alt="Chania">
+
                     </div>
 
                     <div class="item">
-                        <img src="img_flower.jpg" alt="Flower">
-                        <div class="carousel-caption">
-                            <h3>Flowers</h3>
-                            <p>Beatiful flowers in Kolymbari, Crete.</p>
-                        </div>
+                        <img src="http://www.cursosgratuitossenai2015.com.br/wp-content/uploads/2015/01/Alunos-senai.jpg" alt="Flower">
+
                     </div>
 
                     <div class="item">
-                        <img src="img_flower2.jpg" alt="Flower">
-                        <div class="carousel-caption">
-                            <h3>Flowers</h3>
-                            <p>Beatiful flowers in Kolymbari, Crete.</p>
-                        </div>
+                        <img src="http://arquivos.portaldaindustria.com.br/app/foto_133053580552/2012/06/27/83/20120627172856395099u.jpg" alt="Flower">
+
                     </div>
                 </div>
 
@@ -128,6 +119,7 @@
                 </a>
             </div>
         </div>
+
         <div id="section2" class="container-fluid">
             <h1>Cursos</h1>
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
@@ -158,7 +150,7 @@
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
         </div>
-
+<script src="js/meuscript.js"></script>
     </body>
 </html>
 
