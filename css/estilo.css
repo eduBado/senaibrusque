@@ -177,3 +177,8 @@ html {
     z-index: 2;
     background: linear-gradient(45deg, #6B15A1, #AC2AA1) repeat scroll 0% 0% transparent;
 }
+
+
+.modal-content {
+    margin-top: 50%;
+}

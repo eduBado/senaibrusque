@@ -18,7 +18,7 @@
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
         <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
-        
+
 
     </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -117,10 +117,11 @@
 
         </div>
 
+        <!-- CURSOS -->
         <div id="section2" class="container-fluid">
-
+            <h1>Cursos</h1>
             <div class="row">
-                
+
                 <!-- CURSO UM -->
                 <div class="col-md-4 m-b-lg">
                     <div class="panel panel-default panel-profile m-b-0">
@@ -128,7 +129,7 @@
                             <img class="panel-profile-img" src="//cdn.shopify.com/s/files/1/0691/5403/t/108/assets/avatar-fat.jpg?14626024167487121591">
                             <h5 class="panel-title">Jacob Thornton</h5>
                             <p class="m-b">Star trek flow so they klingon me. I wrote this here code. Two times.</p>
-                            
+
                             <!-- BOTÃO -->
                             <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
 
@@ -155,7 +156,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- CURSO DOIS -->
                 <div class="col-md-4 m-b-lg">
                     <div class="panel panel-default panel-profile m-b-0">
@@ -163,7 +164,8 @@
                             <img class="panel-profile-img" src="//cdn.shopify.com/s/files/1/0691/5403/t/108/assets/avatar-fat.jpg?14626024167487121591">
                             <h5 class="panel-title">Jacob Thornton</h5>
                             <p class="m-b">Star trek flow so they klingon me. I wrote this here code. Two times.</p>
-                            
+
+
                             <!-- BOTÃO -->
                             <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
 
@@ -190,7 +192,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- CURSO TRES -->
                 <div class="col-md-4 m-b-lg">
                     <div class="panel panel-default panel-profile m-b-0">
@@ -198,7 +200,7 @@
                             <img class="panel-profile-img" src="//cdn.shopify.com/s/files/1/0691/5403/t/108/assets/avatar-fat.jpg?14626024167487121591">
                             <h5 class="panel-title">Jacob Thornton</h5>
                             <p class="m-b">Star trek flow so they klingon me. I wrote this here code. Two times.</p>
-                            
+
                             <!-- BOTÃO -->
                             <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
 
@@ -225,37 +227,153 @@
                         </div>
                     </div>
                 </div>
-                
-                
+
+
             </div>
         </div>
-    </div>
 
-    <div id="section3" class="container-fluid">
-        <h1>Noticias</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    </div>
-    <div id="section4" class="container-fluid">
-        <h1>Fotos</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    </div>
-    <div id="section5" class="container-fluid">
-        <h1>Videos</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    </div>
-    <div id="section6" class="container-fluid">
-        <h1>Contato</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    </div>
-    <div id="section7" class="container-fluid">
-        <h1>Localização</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    </div>
-    <script src="js/meuscript.js"></script>
-</body>
+
+        <!-- NOTICIAS -->
+        <div id="section3" class="container-fluid">
+            <h1>Noticias</h1>
+            <div class="row">
+
+                <!-- CURSO UM -->
+                <div class="col-md-4 m-b-lg">
+                    <div class="panel panel-default panel-profile m-b-0">
+                        <div class="panel-body text-center">
+                            <img class="panel-profile-img" src="//cdn.shopify.com/s/files/1/0691/5403/t/108/assets/avatar-fat.jpg?14626024167487121591">
+                            <h5 class="panel-title">Jacob Thornton</h5>
+                            <p class="m-b">Star trek flow so they klingon me. I wrote this here code. Two times.</p>
+
+                            <!-- BOTÃO -->
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+                            <!-- Modal -->
+                            <div id="myModal" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Modal Header</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Some text in the modal.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CURSO DOIS -->
+                <div class="col-md-4 m-b-lg">
+                    <div class="panel panel-default panel-profile m-b-0">
+                        <div class="panel-body text-center">
+                            <img class="panel-profile-img" src="//cdn.shopify.com/s/files/1/0691/5403/t/108/assets/avatar-fat.jpg?14626024167487121591">
+                            <h5 class="panel-title">Jacob Thornton</h5>
+                            <p class="m-b">Star trek flow so they klingon me. I wrote this here code. Two times.</p>
+
+
+                            <!-- BOTÃO -->
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+                            <!-- Modal -->
+                            <div id="myModal" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Modal Header</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Some text in the modal.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CURSO TRES -->
+                <div class="col-md-4 m-b-lg">
+                    <div class="panel panel-default panel-profile m-b-0">
+                        <div class="panel-body text-center">
+                            <img class="panel-profile-img" src="//cdn.shopify.com/s/files/1/0691/5403/t/108/assets/avatar-fat.jpg?14626024167487121591">
+                            <h5 class="panel-title">Jacob Thornton</h5>
+                            <p class="m-b">Star trek flow so they klingon me. I wrote this here code. Two times.</p>
+
+                            <!-- BOTÃO -->
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+                            <!-- Modal -->
+                            <div id="myModal" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Modal Header</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Some text in the modal.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <!-- FOTOS -->
+        <div id="section4" class="container-fluid">
+            <h1>Fotos</h1>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        </div>
+
+
+        <!-- VIDEOS -->
+        <div id="section5" class="container-fluid">
+            <h1>Videos</h1>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        </div>
+        <div id="section6" class="container-fluid">
+            <h1>Contato</h1>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        </div>
+        <div id="section7" class="container-fluid">
+            <h1>Localização</h1>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        </div>
+        <script src="js/meuscript.js"></script>
+    </body>
 </html>
 
