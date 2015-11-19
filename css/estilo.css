@@ -182,3 +182,71 @@ html {
 .modal-content {
     margin-top: 50%;
 }
+
+/* ------------------------------------------ 
+
+GALERIA
+
+---------------------------------------------------*/
+body {
+    background-color: #666;
+    color: #ddd;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+a, a:visited {
+    color: #9EB4CA;;
+    text-decoration: none;
+}
+
+h1, h2, h3, footer, .gallery {
+    text-align: center;
+}
+
+pre {
+    width: 340px;
+    margin: 0 auto;
+    border: dashed 1px #aaa;
+    margin-bottom: 10px;
+}
+
+header, footer {
+    display: block;
+    padding: .2em 0;
+    background: #555;
+    box-shadow: 0 0 8px #222;
+}
+
+footer {
+    margin-top: 1.5em;
+}
+
+.content {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.gallery:after {
+    content: '';
+    display: block;
+    height: 2px;
+    margin: .5em 0 1.4em;
+    background: 
+    
+    -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(77,77,77,1) 50%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(77,77,77,1) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+.gallery img {
+    height: 100%;
+}
+
+.gallery a {
+    width: 240px;
+    height: 180px;
+    display: inline-block;
+    overflow: hidden;
+    margin: 4px 6px;
+    box-shadow: 0 0 4px -1px #000;
+}

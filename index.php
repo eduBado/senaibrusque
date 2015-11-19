@@ -7,6 +7,7 @@
         <!-- CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css"/>
         <link rel="stylesheet" href="css/estilo.css"/>
+        <link rel="stylesheet" href="css/baguetteBox.css">
 
         <!-- Javascript-->
         <script src="js/jquery-1.11.3.min.js"></script>
@@ -18,6 +19,7 @@
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
         <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+
 
 
     </head>
@@ -130,7 +132,8 @@
                             <h5 class="panel-title">Jacob Thornton</h5>
                             <p class="m-b">Star trek flow so they klingon me. I wrote this here code. Two times.</p>
 
-                            <!-- BOTÃO -->
+                            <script src="js/baguetteBox.js" async></script>
+                            <script src="js/plugins.js" async></script>                        <!-- BOTÃO -->
                             <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
 
                             <!-- Modal -->
@@ -352,9 +355,17 @@
         <!-- FOTOS -->
         <div id="section4" class="container-fluid">
             <h1>Fotos</h1>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            <script src="js/baguetteBox.js" async></script>
+            <script src="js/plugins.js" async></script>
+
+            <div class="baguetteBoxTwo gallery">
+                <a href="img/2-1.jpg" data-at-450="img/thumbs/2-1.jpg" data-at-800="img/small/2-1.jpg" data-at-1366="img/medium/2-1.jpg" data-at-1920="img/big/2-1.jpg"><img src="img/thumbs/2-1.jpg"></a>
+                <a href="img/2-2.jpg" data-at-450="img/thumbs/2-2.jpg" data-at-800="img/small/2-2.jpg" data-at-1366="img/medium/2-2.jpg" data-at-1920="img/big/2-2.jpg"><img src="img/thumbs/2-2.jpg"></a>
+                <a href="img/2-3.jpg" data-at-450="img/thumbs/2-3.jpg" data-at-800="img/small/2-3.jpg" data-at-1366="img/medium/2-3.jpg" data-at-1920="img/big/2-3.jpg"><img src="img/thumbs/2-3.jpg"></a>
+                <a href="img/2-4.jpg" data-at-450="img/thumbs/2-4.jpg" data-at-800="img/small/2-4.jpg" data-at-1366="img/medium/2-4.jpg" data-at-1920="img/big/2-4.jpg"><img src="img/thumbs/2-4.jpg"></a>
+            </div>
         </div>
+
 
 
         <!-- VIDEOS -->
