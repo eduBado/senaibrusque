@@ -34,13 +34,13 @@ body {
     margin: 0;
 }
 
-#section1 {padding-top:50px;height:600px;color: #fff; background-color: #1E88E5;}
-#section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
-#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
-#section4 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
-#section5 {padding-top:50px;height:500px;color: #fff; background-color: #009288;}
-#section6 {padding-top:50px;height:500px;color: #fff; background-color: #007488;}
-#section7 {padding-top:50px;height:500px;color: #fff; background-color: #002188;}
+#section1 {padding-top:50px;height:600px;color: #fff; background-color: whitesmoke;}
+#section2 {padding-top:50px;height:500px;color: #fff; background-color: whitesmoke;}
+#section3 {padding-top:50px;height:500px;color: #fff; background-color: whitesmoke;}
+#section4 {padding-top:50px;height:500px;color: #fff; background-color: whitesmoke;}
+#section5 {padding-top:50px;height:500px;color: #fff; background-color: whitesmoke;}
+#section6 {padding-top:50px;height:500px;color: darkslategray; background-color: whitesmoke;}
+#section7 {padding-top:50px;height:500px;color: #fff; background-color: whitesmoke;}
 
 
 
@@ -188,12 +188,7 @@ html {
 GALERIA
 
 ---------------------------------------------------*/
-body {
-    background-color: #666;
-    color: #ddd;
-    font-family: Helvetica, Arial, sans-serif;
-    margin: 0;
-}
+
 
 a, a:visited {
     color: #9EB4CA;;
@@ -227,16 +222,6 @@ footer {
     margin: 0 auto;
 }
 
-.gallery:after {
-    content: '';
-    display: block;
-    height: 2px;
-    margin: .5em 0 1.4em;
-    background: 
-    
-    -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(77,77,77,1) 50%, rgba(0, 0, 0, 0) 100%);
-    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(77,77,77,1) 50%, rgba(0, 0, 0, 0) 100%);
-}
 
 .gallery img {
     height: 100%;
@@ -249,4 +234,29 @@ footer {
     overflow: hidden;
     margin: 4px 6px;
     box-shadow: 0 0 4px -1px #000;
+}
+
+h1:after {
+    content: '';
+    display: block;
+    height: 2px;
+    margin: .5em 0 1.4em;
+    background: 
+    
+    -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(77,77,77,1) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+h1 {
+    color: darkslategray;
+}
+
+#section6 p {
+     color: darkslategrey;
+      font-family: arial;
+      padding: 5px;
+}
+
+ /* Estilizando formulário de contato */
+#contactForm h4 {
+    color: darkslategray
 }

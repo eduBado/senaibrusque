@@ -26,7 +26,7 @@
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
         <header class="jumbotron text-center" id="topo">
-            <h1>SENAI/SC - Brusque</h1>
+            <h2>SENAI/SC - Brusque</h2>
             <form role="form">
                 <div class="form-inline">
                     <div class="input-group input-group-sm">
@@ -374,11 +374,9 @@
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
         </div>
-        <div id="section6" class="container-fluid">
-            <h1>Contato</h1>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        </div>
+        
+        <?php include 'formContato.php'; ?>
+        
         <div id="section7" class="container-fluid">
             <h1>Localização</h1>
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
