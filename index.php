@@ -383,6 +383,8 @@
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
         </div>
         <script src="js/meuscript.js"></script>
+        <script src="js/formScript.js"></script>
+        
     </body>
 </html>
 
