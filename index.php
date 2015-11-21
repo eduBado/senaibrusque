@@ -6,28 +6,17 @@
 
         <!-- CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css"/>
-        <link rel="stylesheet" href="css/estilo.css"/>
         <link rel="stylesheet" href="css/baguetteBox.css">
-
-        <!-- Javascript-->
-        <script src="js/jquery-1.11.3.min.js"></script>
-        <script src="js/bootstrap.js" ></script>
-
-
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/estilo.css"/>
         <link rel="shortcut icon" href="http://sc.senai.br/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-        <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
-
-
 
     </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
         <header class="jumbotron text-center" id="topo">
             <h2>SENAI/SC - Brusque</h2>
-            <form role="form">
+            <form role="form" id="formNews">
                 <div class="form-inline">
                     <div class="input-group input-group-sm">
                         <span class="input-group-addon ">
@@ -38,7 +27,7 @@
                     </div>
                     <button type="submit" class="btn btn-success">Cadastrar</button>
                 </div>
-
+            </form>
         </header>
 
 
@@ -374,14 +363,21 @@
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
         </div>
-        
+
         <?php include 'formContato.php'; ?>
-        
+
         <div id="section7" class="container-fluid">
             <h1>Localização</h1>
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
         </div>
+
+        <!-- Javascript-->
+
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/bootstrap.js" ></script>
+        <script src="js/jssor.slider.mini.js"></script>
+        <script src="js/validator.js"></script>
         <script src="js/meuscript.js"></script>
         <script src="js/formScript.js"></script>
         
