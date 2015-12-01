@@ -28,7 +28,7 @@ use noticias;
 --
 
 CREATE TABLE IF NOT EXISTS `noticias` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL auto_increment,
   `titulo` text NOT NULL,
   `noticia` text NOT NULL,
   `data` date NOT NULL,

@@ -10,11 +10,11 @@ if (isset($_COOKIE['logado'])) {
  $logado = $_COOKIE['logado'];
 }
 else {
- header("Location:incluidos/admin.php");
+ header("Location:admin.php");
  exit();
 }
 
-include("incluidos/configuracoes.php");
+include("configuracoes.php");
 
 $titulo = $_POST['titulo'];
 $noticia = $_POST['noticia'];
@@ -23,9 +23,12 @@ $hora = date("H:i:s");
 
 if ($titulo != "" && $noticia != "") {
 
-mysql_connect($mysql['home'],$mysql['usuario'],$mysql['senha']);
+mysql_connect($mysql['host'],$mysql['usuario'],$mysql['senha']);
 mysql_select_db($mysql['database']);
-mysql_query("INSERT INTO noticias (titulo, noticia, data, hora) VALUES ('$titulo', '$noticia', '$data', '$hora')");
+$sql = "INSERT INTO noticias (titulo, noticia, data, hora) VALUES ('$titulo', '$noticia', '$data', '$hora')";
+//echo $sql; die;
+
+mysql_query($sql);
 header("Location:adicionar_noticias.php?msg=Noticia+adicionada+com+sucesso");
 }
 else {
