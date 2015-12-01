@@ -2,7 +2,6 @@
 <?php
 // Sistema de notícias 1.0
 
-echo "testeee";
 
 // Arquivo: index.php (Exibe as notícias)
 ?>
@@ -11,8 +10,8 @@ echo "testeee";
 <title>Sistema de Notícias</title>
 </head>
 <?php
-include("incluidos/configuracoes.php");
-mysql_connect($mysql['home'],$mysql['usuario'],$mysql['senha']);
+include("configuracoes.php");
+mysql_connect($mysql['host'],$mysql['usuario'],$mysql['senha']);
 mysql_select_db($mysql['database']);
 $resultado = mysql_query("SELECT * FROM noticias ORDER BY id DESC LIMIT $noticias[max]");
 while ($linha=mysql_fetch_array($resultado)) {

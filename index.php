@@ -27,6 +27,7 @@
                     </div>
                     <button type="submit" class="btn btn-success">Cadastrar</button>
                 </div>
+                
             </form>
         </header>
 
@@ -70,9 +71,10 @@
         </nav>    
 
         <!-- CARROSSEL -->
+        <?php include './incluidos/admin.php'; ?>
         <div id="section1" class="container-fluid">
             <h1>Inicio</h1>
-
+ 
             <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden; visibility: hidden;">
                 <!-- Loading Screen -->
                 <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
@@ -133,7 +135,7 @@
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                            <h4 class="modal-title">Modal Header</h4>
+                                            <h4 class="modal-title">asdkasdlaskdalçsk</h4>
                                         </div>
                                         <div class="modal-body">
                                             <p>Some text in the modal.</p>
@@ -236,7 +238,7 @@
                         <div class="panel-body text-center">
                             <img class="panel-profile-img" src="//cdn.shopify.com/s/files/1/0691/5403/t/108/assets/avatar-fat.jpg?14626024167487121591">
                             <h5 class="panel-title">Jacob Thornton</h5>
-                            <p class="m-b">Star trek flow so they klingon me. I wrote this here code. Two times.</p>
+                            <p class="m-b"> <?php include './incluidos/index.php'; ?></p>
 
                             <!-- BOTÃO -->
                             <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
@@ -252,7 +254,7 @@
                                             <h4 class="modal-title">Modal Header</h4>
                                         </div>
                                         <div class="modal-body">
-                                            <p>Some text in the modal.</p>
+                                            <p> </p>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -368,8 +370,8 @@
 
         <div id="section7" class="container-fluid">
             <h1>Localização</h1>
-          <?php include './incluidos/admin.php'; ?>
-          <?php include './incluidos/index.php'; ?>
+          
+         
             
         </div>
 
