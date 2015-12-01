@@ -368,8 +368,9 @@
 
         <div id="section7" class="container-fluid">
             <h1>Localização</h1>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+          <?php include './incluidos/admin.php'; ?>
+          <?php include './incluidos/index.php'; ?>
+            
         </div>
 
         <!-- Javascript-->
