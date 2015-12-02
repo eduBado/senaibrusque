@@ -16,7 +16,9 @@ else {
 
 include("configuracoes.php");
 
+session_start();
 $titulo = $_POST['titulo'];
+$_SESSION['titulo'] = $titulo;
 $noticia = $_POST['noticia'];
 $data = date("Y-m-d");
 $hora = date("H:i:s");

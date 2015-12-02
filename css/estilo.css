@@ -37,10 +37,10 @@ body {
 #section1 {padding-top:50px;height:600px;color: darkslategray; background-color: whitesmoke;}
 #section2 {padding-top:50px;height:500px;color: darkslategray; background-color: whitesmoke;}
 #section3 {padding-top:50px;height:500px;color: darkslategray; background-color: whitesmoke;}
-#section4 {padding-top:50px;height:500px;color: darkslategray; background-color: whitesmoke;}
+#section4 {padding-top:50px;height:600px;color: darkslategray; background-color: whitesmoke;}
 #section5 {padding-top:50px;height:500px;color: darkslategray; background-color: whitesmoke;}
-#section6 {padding-top:50px;height:700px;color: darkslategray; background-color: whitesmoke;}
-#section7 {padding-top:50px;height:500px;color: darkslategray; background-color: whitesmoke;}
+#section6 {padding-top:50px;height:650px;color: darkslategray; background-color: whitesmoke;}
+#section7 {padding-top:50px;height:700px;color: darkslategray; background-color: whitesmoke;}
 
 
 
@@ -182,6 +182,7 @@ html {
 .modal-content {
     margin-top: 50%;
 }
+
 
 /* ------------------------------------------ 
 
